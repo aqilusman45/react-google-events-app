@@ -1,0 +1,15 @@
+export const LANDING = '/';
+export const SIGNIN = '/sign-in';
+export const SIGNUP = '/sign-up';
+export const DASHBOARD = '/dashboard';
+export const ACCOUNT_SETTINGS = '/account';
+export const EVENTS = '/events';
+export const PRIVACY_POLICY = '/privacy-policy';
+export const FORGET_PASSWORD = '/forgot-pw';
+export const TERMS_CONDITIONS = '/terms-and-conditions';
+export const CREATE_CALENDAR = '/create-calendar';
+export const CREATE_EVENT = '/create-event';
+export const ADD_FRIEND = '/add-friend';
+export const EVENT_DETAILS = '/event-details';
+export const EDIT_EVENT = '/edit-event';
+export const CHECKOUT = '/check-out';

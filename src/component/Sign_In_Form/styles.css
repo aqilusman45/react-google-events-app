@@ -1,0 +1,13 @@
+#root .Wrapper .SignIn-Page .SignIn-Form-Wrapper .SignIn-Form{
+    display: inline-block;
+}
+
+#root .Wrapper .SignIn-Page .SignIn-Form-Wrapper{
+    width: 50%;
+    margin: auto;
+}
+
+#root .Wrapper .SignIn-Page .SignIn-Form-Wrapper .SignIn-Form form{
+    text-align: left;
+    margin: auto;
+}

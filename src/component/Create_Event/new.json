@@ -1,0 +1,144 @@
+{
+  "kind": "calendar#event",
+  "etag": "etag",
+  "id": "string",
+  "status": "string",
+  "htmlLink": "string",
+  "created": "datetime",
+  "updated": "datetime",
+  "summary": "string",
+  "description": "string",
+  "location": "string",
+  "colorId": "string",
+  "creator": {
+    "id": "string",
+    "email": "string",
+    "displayName": "string",
+    "self": "bool"
+  },
+  "organizer": {
+    "id": "string",
+    "email": "string",
+    "displayName": "string",
+    "self": "bool"
+  },
+  "start": {
+    "date": "date",
+    "datetime": "datetime",
+    "timeZone": "string"
+  },
+  "end": {
+    "date": "date",
+    "datetime": "datetime",
+    "timeZone": "string"
+  },
+  "endTimeUnspecified": "bool",
+  "recurrence": ["string"],
+  "recurringEventId": "string",
+  "originalStartTime": {
+    "date": "date",
+    "datetime": "datetime",
+    "timeZone": "string"
+  },
+  "transparency": "string",
+  "visibility": "string",
+  "iCalUID": "string",
+  "sequence": "integer",
+  "attendees": [
+    {
+      "id": "string",
+      "email": "string",
+      "displayName": "string",
+      "organizer": "bool",
+      "self": "bool",
+      "resource": "bool",
+      "optional": "bool",
+      "responseStatus": "string",
+      "comment": "string",
+      "additionalGuests": "integer"
+    }
+  ],
+  "attendeesOmitted": "bool",
+  "extendedProperties": {
+    "private": {
+      "key": "string"
+    },
+    "shared": {
+      "key": "string"
+    }
+  },
+  "hangoutLink": "string",
+  "conferenceData": {
+    "createRequest": {
+      "requestId": "string",
+      "conferenceSolutionKey": {
+        "type": "string"
+      },
+      "status": {
+        "statusCode": "string"
+      }
+    },
+    "entryPoints": [
+      {
+        "entryPointType": "string",
+        "uri": "string",
+        "label": "string",
+        "pin": "string",
+        "accessCode": "string",
+        "meetingCode": "string",
+        "passcode": "string",
+        "password": "string"
+      }
+    ],
+    "conferenceSolution": {
+      "key": {
+        "type": "string"
+      },
+      "name": "string",
+      "iconUri": "string"
+    },
+    "conferenceId": "string",
+    "signature": "string",
+    "notes": "string",
+    "gadget": {
+      "type": "string",
+      "title": "string",
+      "link": "string",
+      "iconLink": "string",
+      "width": "integer",
+      "height": "integer",
+      "display": "string",
+      "preferences": {
+        "key": "string"
+      }
+    },
+    "anyoneCanAddSelf": "bool",
+    "guestsCanInviteOthers": "bool",
+    "guestsCanModify": "bool",
+    "guestsCanSeeOtherGuests": "bool",
+    "privateCopy": "bool",
+    "locked": "bool",
+    "reminders": {
+      "useDefault": "bool",
+      "overrides": [
+        {
+          "method": "string",
+          "minutes": "integer"
+        }
+      ]
+    },
+    "source": {
+      "url": "string",
+      "title": "string"
+    },
+    "attachments": [
+      {
+        "fileUrl": "string",
+        "title": "string",
+        "mimeType": "string",
+        "iconLink": "string",
+        "fileId": "string"
+      }
+    ]
+  }
+}
